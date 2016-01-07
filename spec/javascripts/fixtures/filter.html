@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head><title>Filter</title></head>
+<body>
+  <div>
+    <div>Choices choices:</div>
+    <input type="checkbox" id="foo" name="foo" onchange="displayFiltered()"/> Type foo
+    <input type="checkbox" id="bar" name="bar" onchange="displayFiltered()"/> Type bar
+  </div>
+  <ul>
+    <li class="foo">Article 1, foo</li>
+    <li class="bar">Article 2, bar</li>
+    <li class="foo bar">Article 3, foo + bar</li>
+  </ul>
+
+  <script type="text/javascript" src="filter.js"></script>
+</body>
+</html>
